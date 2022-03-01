@@ -71,7 +71,7 @@ public class ThreadDemo {
     }
 }
 
-class Hi extends Thread{ //Thread will make this class thread, and we have to call the method run which we want to run on multiple thread.
+class Hi extends Thread{ //Thread will make this class thread, and we have to name the method run which we want to run on multiple thread.
     public void run(){
         for(int i =0;i<=5;i++)
         {
